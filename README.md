@@ -8,7 +8,7 @@ a android based on AOSP with Minimalist UI Design.
 
 ### Sync our source ###
 ```bash
-repo init -u https://github.com/xdroid-oss/xd_manifest -b thirteen
+repo init -u https://github.com/xdroidOSS-Pixel/manifest -b thirteen
 ```
 ```bash
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
