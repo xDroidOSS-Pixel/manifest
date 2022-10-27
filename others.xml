@@ -68,6 +68,7 @@
   <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="arrow" />
   <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="arrow" />
   <project path="vendor/nxp/opensource/pn5xx/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="arrow" revision="arrow-13.0-pn5xx" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="arrow" />
   <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="arrow" revision="arrow-13.0-pn5xx" />
   <project path="vendor/nxp/opensource/sn100x/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="arrow" revision="arrow-13.0-sn100x" />
   <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="arrow" revision="arrow-13.0-sn100x" />
@@ -109,7 +110,6 @@
   <!-- Remote Vendor xDroidOSS-Pixel -->
   <project path="vendor/xdroid" name="vendor_xdp" remote="xdp" />
   <project path="vendor/xdroidui" name="vendor_xdpui" remote="xdp" />
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_display-commonsys-intf" remote="xdp" />
 
   <!-- Remote Device Tree xDroidOSS-Pixel -->
   <project path="device/google/crosshatch" name="device_google_crosshatch" remote="xdp" />
