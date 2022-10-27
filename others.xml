@@ -12,7 +12,7 @@
   
   <remote  name="xdp"
            fetch="https://github.com/xDroidOSS-Pixel"
-           revision="refs/heads/13" />
+           revision="13" />
 
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" remote="arrow" revision="arrow-13.0-caf" />
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="arrow" >
