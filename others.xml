@@ -56,7 +56,6 @@
   <project path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrow" revision="arrow-13.0-caf-sm8350" />
   <project path="hardware/qcom-caf/sm8350/media" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-13.0-caf-sm8350" />
   <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="lineage"/>
-  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineage" />
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="arrow" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="arrow" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="arrow" />
@@ -94,14 +93,24 @@
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
   
-  <!-- Remote xDroidOSS-Pixel -->
-  <project name="hardware_qcom_camera" path="hardware/qcom/camera" remote="xdp" />
-  <project name="hardware_qcom_display" path="hardware/qcom/display" remote="xdp" />
-  <project name="android_hardware_qcom_gps" path="hardware/qcom/gps" remote="lineage" />
-  <project name="hardware_qcom_media" path="hardware/qcom/media" remote="xdp" />
-  <project name="hardware_qcom_sdm845_display" path="hardware/qcom/sdm845/display" remote="xdp" />
-  <project name="hardware_qcom_sdm845_media" path="hardware/qcom/sdm845/media" remote="xdp" />
-  <project name="hardware_qcom_wlan" path="hardware/qcom/wlan" remote="xdp" />
-  <project name="hardware_qcom_msm8998" path="hardware/qcom/msm8998" remote="xdp" />
+  <!-- Remote Hardware xDroidOSS-Pixel -->
+  <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="xdp" />
+  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="xdp" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="lineage" />
+  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="xdp" />
+  <project path="hardware/qcom/sdm845/display" name="hardware_qcom_sdm845_display" remote="xdp" />
+  <project path="hardware/qcom/sdm845/media" name="hardware_qcom_sdm845_media" remote="xdp" />
+  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="xdp" />
+  <project path="hardware/qcom/msm8998" name="hardware_qcom_msm8998" remote="xdp" />
+  <project path="hardware/lineage/compat" name="hardware_lineage_compat" remote="xdp" />
 
+  <!-- Remote Farmeworks xDroidOSS-Pixel -->
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="xdp" />
+
+  <!-- Remote Vendor xDroidOSS-Pixel -->
+  <project path="vendor/xdroid" name="vendor_xdp" remote="xdp" />
+  <project path="vendor/xdroidui" name="vendor_xdpui" remote="xdp" />
+  
+  <!-- Remote Device xDroidOSS-Pixel > WIP-->
+  
 </manifest>
