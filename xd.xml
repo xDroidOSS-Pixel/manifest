@@ -31,7 +31,7 @@
   <project path="frameworks/av" name="xd_frameworks_av" remote="xd" />
   <project path="frameworks/base" name="xd_frameworks_base" remote="xd" />
   <project path="frameworks/native" name="xd_frameworks_native" remote="xd" />
-  <project path="frameworks/opt/telephony" name="xd_frameworks_opt_telephony" remote="xd" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="xdp" />
 
   <!-- Hardware -->
   <project path="hardware/qcom-caf/wlan" name="xd_hardware_qcom-caf_wlan" remote="xd"/>
