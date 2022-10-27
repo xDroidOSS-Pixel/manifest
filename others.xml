@@ -113,7 +113,6 @@
 
   <!-- Remote Device Tree xDroidOSS-Pixel -->
   <project path="device/google/crosshatch" name="device_google_crosshatch" remote="xdp" />
-  <project path="device/google/bluecross" name="device_google_bluecross" remote="xdp" />
   <project path="device/google/taimen" name="device_google_taimen" remote="xdp" />
   <project path="device/google/wahoo" name="device_google_wahoo" remote="xdp" />
   
