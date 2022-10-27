@@ -122,6 +122,6 @@
 
   <!-- Remote Vebdor Tree xDroidOSS-Pixel -->
   <project path="vendor/google/bluecross" name="vendor_google_bluecross" remote="xdp" />
-  <project path="vendor/google/taimen" name="vednor_google_taimen" remote="xdp" />
+  <project path="vendor/google/taimen" name="vendor_google_taimen" remote="xdp" />
 
 </manifest>
