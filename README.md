@@ -1,10 +1,6 @@
-![banner](https://raw.githubusercontent.com/xdroid-oss/.github/55654e4a1b88977f60e2116d7cbeed17e87f450b/banner.png)
-# xdroidOSS | xdroid Open Source Software
-a android based on AOSP with Minimalist UI Design.
+![banner](https://raw.githubusercontent.com/xdroidOSS-Pixel/.github/55654e4a1b88977f60e2116d7cbeed17e87f450b/banner.png)
 
-### Requirements
-- Around 500GB disk space.
-- Around 18GB RAM running Linux.
+# xdroidOSS | Pixel 2 & Pixel 3
 
 ### Sync our source ###
 ```bash
@@ -38,14 +34,6 @@ Reference
 https://github.com/xdroid-devices/xd_device_xiaomi_lavender/commit/6f2ed2af8ee5a6165ffd231d368b03cbee5e3989
 ```
 ### Credits ###
- * [**AOSP**](https://android.googlesource.com)
- * [**CAF**](https://source.codeaurora.org)
- * [**PixelExperience**](https://github.com/PixelExperience)
- * [**LineageOS**](https://github.com/LineageOS)
- * [**POSP**](https://github.com/PotatoProject)
- * [**StatixOS**](https://github.com/StatiXOS)
- * [**WeebProject**](https://github.com/WeebProject)
- * [**AOSPMasterVayu**](https://github.com/AOSP-Master-Vayu)
- * [**AEX**](https://github.com/AospExtended)
+ * [**xDroidOSS**](https://github.com/xdroid-oss)
 
-![footer](https://github.com/xdroid-oss/.github/raw/main/footer.png)
+![footer](https://github.com/xdroidOSS-Pixel/.github/raw/main/footer.png)
