@@ -104,8 +104,9 @@
   <project path="hardware/qcom/msm8998" name="hardware_qcom_msm8998" remote="xdp" />
   <project path="hardware/lineage/compat" name="hardware_lineage_compat" remote="xdp" />
   
-  <!-- Remote Farmeworks xDroidOSS-Pixel -->
+  <!-- Remote Frameworks xDroidOSS-Pixel -->
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="xdp" />
+  <project path="frameworks/base" name="frameworks_base_xdp" remote="xdp" />
 
   <!-- Remote Vendor xDroidOSS-Pixel -->
   <project path="vendor/xdroid" name="vendor_xdp" remote="xdp" />
@@ -120,7 +121,7 @@
   <project path="kernel/google/bluecross" name="kernel_google_bluecross" remote="xdp" />
   <project path="kernel/google/wahoo" name="kernel_google_wahoo" remote="xdp" />
 
-  <!-- Remote Vebdor Tree xDroidOSS-Pixel -->
+  <!-- Remote Vendor Tree xDroidOSS-Pixel -->
   <project path="vendor/google" name="vendor_google_bluecross" remote="xdp" />
   <project path="vendor/google/taimen" name="vendor_google_taimen" remote="xdp" />
   

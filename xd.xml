@@ -29,7 +29,6 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="xd_frameworks_av" remote="xd" />
-  <project path="frameworks/base" name="xd_frameworks_base" remote="xd" />
   <project path="frameworks/native" name="xd_frameworks_native" remote="xd" />
 
   <!-- Hardware -->
