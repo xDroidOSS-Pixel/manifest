@@ -23,8 +23,8 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="xdp" />
 
   <!-- Remote Vendor xDroidOSS-Pixel -->
-  <project path="vendor/xdp" name="vendor_xdp" remote="xdp" />
-  <project path="vendor/xdpui" name="vendor_xdpui" remote="xdp" />
+  <project path="vendor/xdroid" name="vendor_xdp" remote="xdp" />
+  <project path="vendor/xdroidui" name="vendor_xdpui" remote="xdp" />
 
   <!-- Remote Device Tree xDroidOSS-Pixel -->
   <project path="device/google/crosshatch" name="device_google_crosshatch" remote="xdp" />
