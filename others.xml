@@ -108,6 +108,9 @@
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="xdp" />
   <project path="frameworks/base" name="frameworks_base_xdp" remote="xdp" />
 
+  <!-- Packages Apps xDroidOSS-Pixel -->
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="xdp" />
+
   <!-- Remote Vendor xDroidOSS-Pixel -->
   <project path="vendor/xdroid" name="vendor_xdp" remote="xdp" />
   <project path="vendor/xdroidui" name="vendor_xdpui" remote="xdp" />
