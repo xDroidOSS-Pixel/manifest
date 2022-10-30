@@ -50,6 +50,6 @@
   
   <!-- Remote Gapps Pixel Experience -->
   <project path="vendor/gms" name="vendor_gapps" remote="pe-gitlab" revision="thirteen" />
-  <project path="vendor/gms" name="gms" remote="xdp" />
+  <project path="vendor/gms/gmsset" name="gms" remote="xdp" />
 
   </manifest>
