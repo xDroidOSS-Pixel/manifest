@@ -7,7 +7,7 @@
 
 <remote  name="pe-gitlab"
            fetch="https://gitlab.com/PixelExperience"
-           revision="thirteen" />
+           revision="refs/heads/thirteen" />
 
   <!-- Remote Hardware xDroidOSS-Pixel -->
   <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="xdp" />
@@ -49,7 +49,7 @@
   <project path="packages/apps/ElmyraService" name="packages_apps_ElmyraService" remote="xdp" />
   
   <!-- Remote Gapps Pixel Experience -->
-  <project path="vendor/gms" name="vendor_gapps" remote="pe-gitlab" revision="thirteen" />
+  <project path="vendor/gms" name="vendor_gapps" remote="pe-gitlab" revision="thirteen" clone-depth="1" />
   <project path="vendor/gms/gmsset" name="gms" remote="xdp" />
 
   </manifest>
