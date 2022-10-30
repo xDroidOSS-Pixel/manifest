@@ -81,7 +81,6 @@
   
   <!-- Vendor -->
   <project path="vendor/xdroidui-pref" name="xd_vendor_xdroidui-pref" remote="xd" />
-  <project path="vendor/gms" name="xd_vendor_gms" remote="xd-gitlab" clone-depth="1" />
 
   <!-- QCOM Vendor -->
   <project path="vendor/qcom/opensource/vibrator" name="xd_vendor_qcom_opensource_vibrator" remote="xd" />

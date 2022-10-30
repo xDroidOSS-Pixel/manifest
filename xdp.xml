@@ -5,6 +5,10 @@
          fetch="https://github.com/xDroidOSS-Pixel"
          revision="thirteen" />
 
+<remote  name="pe-gitlab"
+           fetch="https://gitlab.com/PixelExperience"
+           revision="thirteen" />
+
   <!-- Remote Hardware xDroidOSS-Pixel -->
   <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="xdp" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="xdp" />
@@ -43,5 +47,9 @@
   
   <!-- Remote Elmyra xDroidOSS-Pixel -->
   <project path="packages/apps/ElmyraService" name="packages_apps_ElmyraService" remote="xdp" />
+  
+  <!-- Remote Gapps Pixel Experience -->
+  <project path="vendor/gms" name="vendor_gapps" remote="pe-gitlab" revision="thirteen" />
+  <project path="vendor/gms" name="gms" remote="xdp" />
 
   </manifest>
