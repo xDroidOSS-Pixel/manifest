@@ -3,7 +3,7 @@
 
 <remote  name="xdp"
          fetch="https://github.com/xDroidOSS-Pixel"
-         revision="13" />
+         revision="thirteen" />
 
   <!-- Remote Hardware xDroidOSS-Pixel -->
   <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="xdp" />
@@ -17,14 +17,14 @@
 
   <!-- Remote Frameworks xDroidOSS-Pixel -->
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="xdp" />
-  <project path="frameworks/base" name="frameworks_base_xdp" remote="xdp" />
+  <project path="frameworks/base" name="frameworks_base" remote="xdp" />
 
   <!-- Packages Apps xDroidOSS-Pixel -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="xdp" />
 
   <!-- Remote Vendor xDroidOSS-Pixel -->
-  <project path="vendor/xdroid" name="vendor_xdp" remote="xdp" />
-  <project path="vendor/xdroidui" name="vendor_xdpui" remote="xdp" />
+  <project path="vendor/xdroid" name="vendor" remote="xdp" />
+  <project path="vendor/xdroidui" name="vendor_ui" remote="xdp" />
 
   <!-- Remote Device Tree xDroidOSS-Pixel -->
   <project path="device/google/crosshatch" name="device_google_crosshatch" remote="xdp" />
