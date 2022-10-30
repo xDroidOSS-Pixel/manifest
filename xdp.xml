@@ -6,8 +6,8 @@
          revision="thirteen" />
 
 <remote  name="pe-gitlab"
-           fetch="https://gitlab.com/PixelExperience"
-           revision="refs/heads/thirteen" />
+           fetch="https://gitlab.com/PixelExperience/thirteen"
+           revision="thirteen" />
 
   <!-- Remote Hardware xDroidOSS-Pixel -->
   <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="xdp" />
