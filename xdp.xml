@@ -36,7 +36,8 @@
 
   <!-- Remote Vendor xDroidOSS-Pixel -->
   <project path="vendor/xdroid" name="vendor" remote="xdp" />
-  <project path="vendor/xdroidui" name="vendor_ui" remote="xdpdev" revision="tiramisu" />
+  <project path="vendor/xdroidui" name="vendor_ui" remote="xdp" />
+  <project path="vendor/gmsset" name="gms" remote="xdp" />
 
   <!-- Remote Device Tree xDroidOSS-Pixel -->
   <project path="device/google/crosshatch" name="device_google_crosshatch" remote="xdp" />
@@ -55,9 +56,10 @@
          
   <!-- Remote Packages -->
   <project path="packages/apps/ElmyraService" name="packages_apps_ElmyraService" remote="xdp" />
+  <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="pe" revision="thirteen" />
          
   <!-- Remote Gapps Pixel Experience -->
-  <project path="vendor/gapps" name="vendor_gapps" remote="pe-gitlab" revision="thirteen" clone-depth="1" />
-  <project path="vendor/gmsset" name="gms" remote="xdp" />
+  <!-- <project path="vendor/gapps" name="vendor_gapps" remote="pe-gitlab" revision="thirteen" clone-depth="1" /> -->
+  
 
   </manifest>
