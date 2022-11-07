@@ -5,6 +5,10 @@
          fetch="https://github.com/xDroidOSS-Pixel"
          revision="thirteen" />
 
+<remote  name="xdp"
+         fetch="https://github.com/xDroidOSS-Pixel"
+         revision="tiramisu" />
+
 <remote  name="pe-gitlab"
            fetch="https://gitlab.com/PixelExperience/thirteen"
            revision="thirteen" />
@@ -25,7 +29,7 @@
 
   <!-- Remote Frameworks xDroidOSS-Pixel -->
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="xdp" />
-  <project path="frameworks/base" name="frameworks_base" remote="xdp" />
+  <project path="frameworks/base" name="frameworks_base" remote="xdp" revision="tiramisu" />
 
   <!-- Packages Apps xDroidOSS-Pixel -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="xdp" />
