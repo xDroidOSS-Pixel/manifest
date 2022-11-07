@@ -5,7 +5,7 @@
          fetch="https://github.com/xDroidOSS-Pixel"
          revision="thirteen" />
 
-<remote  name="xdp"
+<remote  name="xdpdev"
          fetch="https://github.com/xDroidOSS-Pixel"
          revision="tiramisu" />
 
@@ -29,14 +29,14 @@
 
   <!-- Remote Frameworks xDroidOSS-Pixel -->
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="xdp" />
-  <project path="frameworks/base" name="frameworks_base" remote="xdp" revision="tiramisu" />
+  <project path="frameworks/base" name="frameworks_base" remote="xdpdev" revision="tiramisu" />
 
   <!-- Packages Apps xDroidOSS-Pixel -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="xdp" />
 
   <!-- Remote Vendor xDroidOSS-Pixel -->
   <project path="vendor/xdroid" name="vendor" remote="xdp" />
-  <project path="vendor/xdroidui" name="vendor_ui" remote="xdp" />
+  <project path="vendor/xdroidui" name="vendor_ui" remote="xdpdev" revision="tiramisu" />
 
   <!-- Remote Device Tree xDroidOSS-Pixel -->
   <project path="device/google/crosshatch" name="device_google_crosshatch" remote="xdp" />
@@ -52,11 +52,9 @@
   <project path="vendor/google" name="vendor_google_bluecross" remote="xdp" />
   <project path="vendor/google/taimen" name="vendor_google_taimen" remote="xdp" />
   <project path="vendor/google/walleye" name="vendor_google_walleye" remote="xdp" />
-  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="pe" revision="thirteen" />
          
   <!-- Remote Packages -->
   <project path="packages/apps/ElmyraService" name="packages_apps_ElmyraService" remote="xdp" />
-  <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="pe" revision="thirteen" />
          
   <!-- Remote Gapps Pixel Experience -->
   <project path="vendor/gapps" name="vendor_gapps" remote="pe-gitlab" revision="thirteen" clone-depth="1" />
