@@ -33,6 +33,9 @@
 
   <!-- Packages Apps xDroidOSS-Pixel -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="xdp" />
+  
+  <!-- System Core xDroidOSS-Pixel -->
+  <project path="system/core" name="system_core" remote="xdp" />
 
   <!-- Remote Vendor xDroidOSS-Pixel -->
   <project path="vendor/xdroid" name="vendor" remote="xdp" />

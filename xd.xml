@@ -71,7 +71,6 @@
 
   <!-- System -->
   <project path="system/update_engine" name="xd_system_update_engine" remote="xd" />
-  <project path="system/core" name="xd_system_core" remote="xd" />
   <project path="system/sepolicy" name="xd_system_sepolicy" remote="xd" />
   <project path="system/vold" name="xd_system_vold" remote="xd" />
   <project path="system/extras" name="xd_system_extras" remote="xd" />
