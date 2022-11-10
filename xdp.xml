@@ -30,9 +30,11 @@
   <!-- Remote Frameworks xDroidOSS-Pixel -->
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="xdp" />
   <project path="frameworks/base" name="frameworks_base" remote="xdpdev" revision="thirteen-wip" />
+  <project path="frameworks/libs/net" name="frameworks_libs_net" remote="xdp" />
 
   <!-- Packages Apps xDroidOSS-Pixel -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="xdp" />
+  <project path="packages/modules/Connectivity" name="xd_packages_modules_Connectivity" remote="xdp" />
 
   <!-- Remote Vendor xDroidOSS-Pixel -->
   <project path="vendor/xdroid" name="vendor" remote="xdp" />
