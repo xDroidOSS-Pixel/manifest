@@ -34,7 +34,7 @@
 
   <!-- Packages Apps xDroidOSS-Pixel -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="xdp" />
-  <project path="packages/modules/Connectivity" name="xd_packages_modules_Connectivity" remote="xdp" />
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="xdp" />
 
   <!-- Remote Vendor xDroidOSS-Pixel -->
   <project path="vendor/xdroid" name="vendor" remote="xdp" />
