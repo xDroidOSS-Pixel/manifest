@@ -29,7 +29,7 @@
 
   <!-- Remote Frameworks xDroidOSS-Pixel -->
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="xdp" />
-  <project path="frameworks/base" name="frameworks_base" remote="xdp" revision="thirteen" />
+  <project path="frameworks/base" name="frameworks_base" remote="xdp" />
   <project path="frameworks/libs/net" name="frameworks_libs_net" remote="xdp" />
 
   <!-- Packages Apps xDroidOSS-Pixel -->
