@@ -52,26 +52,9 @@
 
   <!-- Root -->
   <project path="art" name="xd_art" remote="xd" />
-  <project path="bionic" name="xd_bionic" remote="xd" />
-  <project path="build/make" name="xd_build" remote="xd" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-    <linkfile src="core" dest="build/core" />
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-    <linkfile src="target" dest="build/target" />
-    <linkfile src="tools" dest="build/tools" />
-  </project>
-  <project path="build/soong" name="xd_build_soong" remote="xd" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
   <project path="libcore" name="xd_libcore" remote="xd" />
 
   <!-- System -->
-  <project path="system/update_engine" name="xd_system_update_engine" remote="xd" />
-  <project path="system/core" name="xd_system_core" remote="xd" />
-  <project path="system/sepolicy" name="xd_system_sepolicy" remote="xd" />
   <project path="system/vold" name="xd_system_vold" remote="xd" />
   <project path="system/extras" name="xd_system_extras" remote="xd" />
   <project path="system/tools/mkbootimg" name="xd_system_tools_mkbootimg" remote="xd" />

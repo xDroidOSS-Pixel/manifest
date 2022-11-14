@@ -17,6 +17,27 @@
          fetch="https://github.com/PixelExperience"
          revision="thirteen" />
 
+  <!-- Remote Root xDroidOSS-Pixel -->
+  <project path="bionic" name="bionic" remote="xdp" />
+  <project path="build/make" name="build" remote="xdp" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="xdp" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  
+  <!-- Remote System xDroidOSS-Pixel -->
+  <project path="system/update_engine" name="system_update_engine" remote="xdp" />
+  <project path="system/core" name="system_core" remote="xdp" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="xdp" />
+
   <!-- Remote Hardware xDroidOSS-Pixel -->
   <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="xdp" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="xdp" />
