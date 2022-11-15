@@ -17,6 +17,9 @@
          fetch="https://github.com/PixelExperience"
          revision="thirteen" />
 
+    <!-- Remote Bootable xDroidOSS-Pixel -->
+  <project path="bootable/recovery" name="bootable_recovery" remote="xdp" />
+
   <!-- Remote Root xDroidOSS-Pixel -->
   <project path="bionic" name="bionic" remote="xdp" />
   <project path="build/make" name="build" remote="xdp" >

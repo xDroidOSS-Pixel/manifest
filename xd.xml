@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Bootable -->
-  <project path="bootable/recovery" name="xd_bootable_recovery" remote="xd" />
-
   <!-- Common -->
   <project path="official-maintainer" name="xd_official-maintainer" remote="xd-devices" />
 
