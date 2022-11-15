@@ -59,6 +59,7 @@
   <!-- Packages Apps xDroidOSS-Pixel -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="xdp" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="xdp" />
+  <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="pe" />
 
   <!-- Remote Vendor xDroidOSS-Pixel -->
   <project path="vendor/xdroid" name="vendor" remote="xdp" />
@@ -82,10 +83,8 @@
          
   <!-- Remote Packages -->
   <project path="packages/apps/ElmyraService" name="packages_apps_ElmyraService" remote="xdp" />
-  <!-- <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="pe" revision="thirteen" /> -->
          
   <!-- Remote Gapps Pixel Experience -->
-  <project path="vendor/gapps" name="vendor_gapps" remote="pe-gitlab" revision="thirteen" clone-depth="1" /> -->
+  <project path="vendor/gapps" name="vendor_gapps" remote="pe-gitlab" revision="thirteen" clone-depth="1" />
   
-
   </manifest>
