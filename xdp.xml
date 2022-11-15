@@ -85,7 +85,7 @@
   <!-- <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="pe" revision="thirteen" /> -->
          
   <!-- Remote Gapps Pixel Experience -->
-  <!-- <project path="vendor/gapps" name="vendor_gapps" remote="pe-gitlab" revision="thirteen" clone-depth="1" /> -->
+  <project path="vendor/gapps" name="vendor_gapps" remote="pe-gitlab" revision="thirteen" clone-depth="1" /> -->
   
 
   </manifest>
