@@ -39,7 +39,6 @@
   <!-- Remote System xDroidOSS-Pixel -->
   <project path="system/update_engine" name="system_update_engine" remote="xdp" />
   <project path="system/sepolicy" name="system_sepolicy" remote="xdp" />
-  <project path="external/selinux" name="external_selinux" remote="xdp" />
 
   <!-- Remote Hardware xDroidOSS-Pixel -->
   <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="xdp" />
