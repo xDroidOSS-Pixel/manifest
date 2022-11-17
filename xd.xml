@@ -19,14 +19,12 @@
   <project path="external/ntfs-3g" name="xd_external_ntfs-3g" remote="xd" />
   <project path="external/f2fs-tools" name="xd_external_f2fs-tools" remote="xd" />
   <project path="external/json-c" name="xd_external_json-c" remote="xd" />
-  <project path="external/selinux" name="xd_external_selinux" remote="xd" />
   <project path="external/tinycompress" name="xd_external_tinycompress" remote="xd" />
   <project path="external/sqlite" name="xd_external_sqlite" remote="xd" />
   <project path="external/tinyxml" name="xd_external_tinyxml" remote="xd" />
 
   <!-- Frameworks -->
-  <project path="frameworks/av" name="xd_frameworks_av" remote="xd" />
-  <project path="frameworks/native" name="xd_frameworks_native" remote="xd" />
+  
 
   <!-- Hardware -->
   <project path="hardware/qcom-caf/wlan" name="xd_hardware_qcom-caf_wlan" remote="xd"/>
@@ -40,8 +38,6 @@
   <project path="packages/apps/GameSpace" name="xd_packages_apps_GameSpace" remote="xd" />
 
   <!-- Packages Modules -->
-  <project path="packages/modules/Bluetooth" name="xd_packages_modules_Bluetooth" remote="xd" />
-  <project path="packages/modules/Wifi" name="xd_packages_modules_Wifi" remote="xd" />
   <project path="packages/modules/Permission" name="xd_packages_modules_Permission" remote="xd" />
 
   <!-- Prebuilts -->
@@ -57,7 +53,8 @@
   <project path="system/tools/mkbootimg" name="xd_system_tools_mkbootimg" remote="xd" />
   <project path="system/logging" name="xd_system_logging" remote="xd" />
   <project path="system/libhidl" name="xd_system_libhidl" remote="xd" />
-  
+  <project path="system/core" name="xd_system_core" remote="xd" />
+
   <!-- Vendor -->
   <project path="vendor/xdroidui-pref" name="xd_vendor_xdroidui-pref" remote="xd" />
   <!-- <project path="vendor/gms" name="xd_vendor_gms" remote="xd-gitlab" clone-depth="1" /> -->

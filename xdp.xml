@@ -7,7 +7,7 @@
 
 <remote  name="xdpdev"
          fetch="https://github.com/xDroidOSS-Pixel"
-         revision="thirteen-wip" />
+         revision="tiramisu" />
 
 <remote  name="pe-gitlab"
            fetch="https://gitlab.com/PixelExperience/thirteen"
@@ -38,8 +38,8 @@
   
   <!-- Remote System xDroidOSS-Pixel -->
   <project path="system/update_engine" name="system_update_engine" remote="xdp" />
-  <project path="system/core" name="system_core" remote="xdp" />
   <project path="system/sepolicy" name="system_sepolicy" remote="xdp" />
+  <project path="external/selinux" name="external_selinux" remote="xdp" />
 
   <!-- Remote Hardware xDroidOSS-Pixel -->
   <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="xdp" />
@@ -53,13 +53,16 @@
 
   <!-- Remote Frameworks xDroidOSS-Pixel -->
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="xdp" />
-  <project path="frameworks/base" name="frameworks_base" remote="xdp" />
+  <project path="frameworks/base" name="frameworks_base" remote="xdpdev" revision="tiramisu" />
   <project path="frameworks/libs/net" name="frameworks_libs_net" remote="xdp" />
+  <project path="frameworks/av" name="frameworks_av" remote="xdp" />
+  <project path="frameworks/native" name="frameworks_native" remote="xdp" />
 
   <!-- Packages Apps xDroidOSS-Pixel -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="xdp" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="xdp" />
-  <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="pe" />
+  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="xdp" />
+  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="xdp" />
 
   <!-- Remote Vendor xDroidOSS-Pixel -->
   <project path="vendor/xdroid" name="vendor" remote="xdp" />
