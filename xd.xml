@@ -23,9 +23,6 @@
   <project path="external/sqlite" name="xd_external_sqlite" remote="xd" />
   <project path="external/tinyxml" name="xd_external_tinyxml" remote="xd" />
 
-  <!-- Frameworks -->
-  
-
   <!-- Hardware -->
   <project path="hardware/qcom-caf/wlan" name="xd_hardware_qcom-caf_wlan" remote="xd"/>
   <project path="hardware/qcom-caf/thermal" name="xd_hardware_qcom_thermal" remote="xd" />
@@ -53,11 +50,11 @@
   <project path="system/tools/mkbootimg" name="xd_system_tools_mkbootimg" remote="xd" />
   <project path="system/logging" name="xd_system_logging" remote="xd" />
   <project path="system/libhidl" name="xd_system_libhidl" remote="xd" />
-  <project path="system/core" name="xd_system_core" remote="xd" />
+  
 
   <!-- Vendor -->
   <project path="vendor/xdroidui-pref" name="xd_vendor_xdroidui-pref" remote="xd" />
-  <!-- <project path="vendor/gms" name="xd_vendor_gms" remote="xd-gitlab" clone-depth="1" /> -->
+  <project path="vendor/gms" name="xd_vendor_gms" remote="xd-gitlab" clone-depth="1" />
 
   <!-- QCOM Vendor -->
   <project path="vendor/qcom/opensource/vibrator" name="xd_vendor_qcom_opensource_vibrator" remote="xd" />
@@ -71,5 +68,4 @@
   <project path="packages/apps/WallpaperPicker2" name="xd_packages_apps_WallpaperPicker2" remote="xd" />
   <project path="packages/apps/FaceUnlockService" name="xd_packages_apps_FaceUnlockService" remote="xd" />
   -->
-
 </manifest>
