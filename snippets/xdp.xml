@@ -6,8 +6,14 @@
            revision="thirteen" />
   
   <remote  name="xdp-gitlab"
-           fetch="https://gitlab.com/asriadirahim03"
+           fetch="https://gitlab.com/asriadirahim"
            revision="thirteen" />
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
 
   <!-- Remote Bootable xDroidOSS-Pixel -->
   <project path="bootable/recovery" name="bootable_recovery" remote="xdp" />
@@ -29,7 +35,7 @@
   </project>
   
   <!-- Remote System xDroidOSS-Pixel -->
-   <project path="system/core" name="system_core" remote="xdp" />
+  <project path="system/core" name="system_core" remote="xdp" />
   <project path="system/update_engine" name="system_update_engine" remote="xdp" />
   <project path="system/sepolicy" name="system_sepolicy" remote="xdp" />
   <project path="external/selinux" name="external_selinux" remote="xdp" />
@@ -59,6 +65,7 @@
   <!-- Remote Vendor xDroidOSS-Pixel -->
   <project path="vendor/xdroid" name="vendor" remote="xdp" />
   <project path="vendor/xdroidui" name="vendor_ui" remote="xdp" />
+  <project path="vendor/gms" name="xdp_vendor_gms" remote="xdp-gitlab" clone-depth="1" />
 
   <!-- Remote Device Tree xDroidOSS-Pixel -->
   <project path="device/google/crosshatch" name="device_google_crosshatch" remote="xdp" />
@@ -77,6 +84,5 @@
          
   <!-- Remote Packages -->
   <project path="packages/apps/ElmyraService" name="packages_apps_ElmyraService" remote="xdp" />
-  <project path="vendor/gms" name="vendor_gms" remote="xdp-gitlab" clone-depth="1" />
 
 </manifest>
