@@ -4,6 +4,10 @@
   <remote  name="xdp"
            fetch="https://github.com/xDroidOSS-Pixel"
            revision="thirteen" />
+  
+  <remote  name="xdp-gitlab"
+           fetch="https://gitlab.com/asriadirahim03"
+           revision="thirteen" />
 
   <!-- Remote Bootable xDroidOSS-Pixel -->
   <project path="bootable/recovery" name="bootable_recovery" remote="xdp" />
@@ -73,4 +77,6 @@
          
   <!-- Remote Packages -->
   <project path="packages/apps/ElmyraService" name="packages_apps_ElmyraService" remote="xdp" />
+  <project path="vendor/gms" name="vendor_gms" remote="xdp-gitlab" clone-depth="1" />
+
 </manifest>

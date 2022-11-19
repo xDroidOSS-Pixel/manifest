@@ -18,10 +18,6 @@
            fetch="https://github.com/xdroid-oss"
            revision="thirteen" />
 
-  <remote  name="xd-gitlab"
-           fetch="https://gitlab.com/xdroid-oss"
-           revision="thirteen" />
-
   <remote  name="xd-devices"
            fetch="https://github.com/xdroid-devices"
            revision="thirteen" />
