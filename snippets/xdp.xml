@@ -38,8 +38,11 @@
   <project path="system/core" name="system_core" remote="xdp" />
   <project path="system/update_engine" name="system_update_engine" remote="xdp" />
   <project path="system/sepolicy" name="system_sepolicy" remote="xdp" />
+
+  <!-- Remote External xDroidOSS-Pixel -->
   <project path="external/selinux" name="external_selinux" remote="xdp" />
-  
+  <project path="external/faceunlock" name="xdp_external_faceunlock" remote="xdp-gitlab" clone-depth="1" />
+
   <!-- Remote Hardware xDroidOSS-Pixel -->
   <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="xdp" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="xdp" />
@@ -84,5 +87,5 @@
          
   <!-- Remote Packages -->
   <project path="packages/apps/ElmyraService" name="packages_apps_ElmyraService" remote="xdp" />
-
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="xdp" />
 </manifest>
