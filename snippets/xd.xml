@@ -30,6 +30,7 @@
   <project path="external/tinycompress" name="xd_external_tinycompress" remote="xd" />
   <project path="external/sqlite" name="xd_external_sqlite" remote="xd" />
   <project path="external/tinyxml" name="xd_external_tinyxml" remote="xd" />
+  <project path="external/jemalloc_new" name="xd_external_jemalloc" remote="xd" />
 
   <!-- Hardware -->
   <project path="hardware/qcom-caf/wlan" name="xd_hardware_qcom-caf_wlan" remote="xd"/>
