@@ -51,7 +51,6 @@
   <project path="prebuilts/abi-dumps/vndk" name="xd_prebuilts_abi-dumps_vndk" remote="xd" />
 
   <!-- Root -->
-  <project path="art" name="xd_art" remote="xd" />
   <project path="libcore" name="xd_libcore" remote="xd" />
 
   <!-- System -->
@@ -60,7 +59,6 @@
   <project path="system/tools/mkbootimg" name="xd_system_tools_mkbootimg" remote="xd" />
   <project path="system/logging" name="xd_system_logging" remote="xd" />
   <project path="system/libhidl" name="xd_system_libhidl" remote="xd" />
-  <project path="system/memory/lmkd" name="xd_system_memory_lmkd" remote="xd" />
 
   <!-- Vendor -->
   <project path="vendor/xdroidui-pref" name="xd_vendor_xdroidui-pref" remote="xd" />

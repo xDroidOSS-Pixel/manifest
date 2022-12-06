@@ -19,6 +19,7 @@
   <project path="bootable/recovery" name="bootable_recovery" remote="xdp" />
 
   <!-- Remote Root xDroidOSS-Pixel -->
+  <project path="art" name="art" remote="xdp" />
   <project path="bionic" name="bionic" remote="xdp" />
   <project path="build/make" name="build" remote="xdp" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -38,6 +39,7 @@
   <project path="system/core" name="system_core" remote="xdp" />
   <project path="system/update_engine" name="system_update_engine" remote="xdp" />
   <project path="system/sepolicy" name="system_sepolicy" remote="xdp" />
+  <project path="system/memory/lmkd" name="system_memory_lmkd" remote="xdp" />
 
   <!-- Remote External xDroidOSS-Pixel -->
   <project path="external/selinux" name="external_selinux" remote="xdp" />
