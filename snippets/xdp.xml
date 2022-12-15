@@ -36,6 +36,7 @@
   </project>
   
   <!-- Remote System xDroidOSS-Pixel -->
+  <project path="system/vold" name="system_vold" remote="xdp" />
   <project path="system/core" name="system_core" remote="xdp" />
   <project path="system/update_engine" name="system_update_engine" remote="xdp" />
   <project path="system/sepolicy" name="system_sepolicy" remote="xdp" />
@@ -61,8 +62,15 @@
   <project path="frameworks/av" name="frameworks_av" remote="xdp" />
   <project path="frameworks/native" name="frameworks_native" remote="xdp" />
 
-  <!-- Packages Apps xDroidOSS-Pixel -->
+  <!-- Remote Packages Apps xDroidOSS-Pixel -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="xdp" />
+  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="xdp" />
+
+  <!-- Remote Packages Services xDroidOSS-Pixel -->
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="xdp" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="xdp" />
+
+  <!-- Remote Packages Modules xDroidOSS-Pixel -->
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="xdp" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="xdp" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="xdp" />

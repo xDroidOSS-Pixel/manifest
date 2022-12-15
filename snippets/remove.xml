@@ -92,6 +92,10 @@
   <remove-project name="platform/packages/modules/Permission" />
   <remove-project name="platform/packages/modules/Connectivity" />
 
+  <!-- Packages (services) -->
+  <remove-project name="platform/packages/services/Telecomm" />
+  <remove-project name="platform/packages/services/Telephony" />
+  
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
 

@@ -42,7 +42,6 @@
   <!-- Packages Apps -->
   <project path="packages/apps/kebeletEgg" name="xd_packages_apps_kebeletEgg" remote="xd" />
   <project path="packages/apps/Nfc" name="xd_packages_apps_Nfc" remote="xd" />
-  <project path="packages/apps/GameSpace" name="xd_packages_apps_GameSpace" remote="xd" />
 
   <!-- Packages Modules -->
   <project path="packages/modules/Permission" name="xd_packages_modules_Permission" remote="xd" />
@@ -54,7 +53,6 @@
   <project path="libcore" name="xd_libcore" remote="xd" />
 
   <!-- System -->
-  <project path="system/vold" name="xd_system_vold" remote="xd" />
   <project path="system/extras" name="xd_system_extras" remote="xd" />
   <project path="system/tools/mkbootimg" name="xd_system_tools_mkbootimg" remote="xd" />
   <project path="system/logging" name="xd_system_logging" remote="xd" />
