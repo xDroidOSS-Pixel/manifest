@@ -70,6 +70,8 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="xdp" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="xdp" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="xdp" />
+  <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="xdp" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="xdp" />
 
   <!-- Remote Packages Services xDroidOSS-Pixel -->
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="xdp" />
