@@ -105,6 +105,7 @@
          
   <!-- Remote Packages -->
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="xdp" />
+  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="xdp" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="xdp" />
   <project path="packages/apps/RepainterServicePriv" name="packages_apps_RepainterServicePriv" remote="xdp" />
 </manifest>
