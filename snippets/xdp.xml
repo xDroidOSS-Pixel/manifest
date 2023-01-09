@@ -104,7 +104,7 @@
   <project path="vendor/google/walleye" name="vendor_google_walleye" remote="xdp" />
          
   <!-- Remote Packages -->
-  <project path="packages/apps/ElmyraService" name="packages_apps_ElmyraService" remote="xdp" />
+  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="xdp" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="xdp" />
   <project path="packages/apps/RepainterServicePriv" name="packages_apps_RepainterServicePriv" remote="xdp" />
 </manifest>
