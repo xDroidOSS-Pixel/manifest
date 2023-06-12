@@ -29,6 +29,7 @@
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" groups="qcom,waipio-vendor" remote="lineage" />
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" groups="qcom,sdm660" remote="lineage" />
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="lineage" />
+  <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="lineage" />
 
   <!-- Devices repos -->
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="qcom,qssi" remote="lineage" />

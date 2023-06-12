@@ -9,6 +9,9 @@
     <!-- Devices -->
     <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="ArrowOS" />
 
+    <!-- Frameworks -->
+    <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="ArrowOS" />
+
     <!-- NXP additions -->
     <project path="vendor/nxp/nfc" name="android_vendor_nxp_nfc" remote="ArrowOS" />
     <project path="vendor/nxp/secure_element" name="android_vendor_nxp_secure_element" remote="ArrowOS" />
