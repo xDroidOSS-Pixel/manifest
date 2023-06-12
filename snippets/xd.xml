@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="xd"
+           fetch="https://github.com/xdroid-deprecated"
+           revision="thirteen" />
+
+  <remote  name="xd-devices"
+           fetch="https://github.com/xdroid-devices"
+           revision="thirteen" />
+
+  <!-- Common -->
+  <project path="official-maintainer" name="xd_official-maintainer" remote="xd-devices" />
+</manifest>

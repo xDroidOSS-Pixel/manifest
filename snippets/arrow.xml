@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="ArrowOS"
+           fetch="https://github.com/arrowos"
+           review="https://review.arrowos.net/"
+           revision="refs/heads/arrow-13.0" />
+
+    <!-- Devices -->
+    <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="ArrowOS" />
+
+    <!-- NXP additions -->
+    <project path="vendor/nxp/nfc" name="android_vendor_nxp_nfc" remote="ArrowOS" />
+    <project path="vendor/nxp/secure_element" name="android_vendor_nxp_secure_element" remote="ArrowOS" />
+    <project path="vendor/nxp/secure_element_extns" name="android_vendor_nxp_secure_element_extns" remote="ArrowOS" />
+    <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="ArrowOS" />
+    <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="ArrowOS" />
+    <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="ArrowOS" />
+    <project path="vendor/nxp/opensource/pn5xx/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="ArrowOS" revision="arrow-13.0-pn5xx" />
+    <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="ArrowOS" revision="arrow-13.0-pn5xx" />
+    <project path="vendor/nxp/opensource/sn100x/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="ArrowOS" revision="arrow-13.0-sn100x" />
+    <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="ArrowOS" revision="arrow-13.0-sn100x" />
+</manifest>
