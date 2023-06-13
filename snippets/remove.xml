@@ -140,9 +140,6 @@
   <remove-project name="platform/packages/modules/Connectivity" />
   <remove-project name="platform/packages/modules/Virtualization" />
 
-  <!-- Prebuilts -->
-  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
-
   <!-- Root -->
   <remove-project name="platform/art" />
   <remove-project name="platform/libcore" />

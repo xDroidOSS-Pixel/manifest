@@ -84,9 +84,6 @@
   <!-- Remote Packages Services xdroidOSS-Pixel -->
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="xdp" />
 
-  <!-- Remote Prebuilts xdroidOSS-Pixel -->
-  <project path="prebuilts/abi-dumps/vndk" name="xd_prebuilts_abi-dumps_vndk" remote="xd" />
-
   <!-- Remote Vendor xdroidOSS-Pixel -->
   <project path="vendor/xdroid" name="vendor_xdroid" remote="xdp" />
   <project path="vendor/xdroidui-pref" name="vendor_xdroidui-pref" remote="xdp" />
