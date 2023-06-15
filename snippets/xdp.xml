@@ -66,6 +66,7 @@
   <project path="frameworks/native" name="frameworks_native" remote="xdp" />
 
   <!-- Packages Modules xdroidOSS-Pixel -->
+  <project path="packages/modules/adb" name="packages_modules_adb" remote="xdp" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="xdp" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="xdp" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="xdp" />
@@ -83,6 +84,17 @@
 
   <!-- Remote Packages Services xdroidOSS-Pixel -->
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="xdp" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="xdp" />
+
+  <!-- Remote System xdroidOSS-Pixel -->
+  <project path="system/media" name="system_media" remote="xdp" />
+  <project path="system/apex" name="system_apex" remote="xdp" />
+  <project path="system/extras" name="system_extras" remote="xdp" />
+  <project path="system/libhidl" name="system_libhidl" remote="xdp" />
+  <project path="system/memory/lmkd" name="system_memory_lmkd" remote="xdp" />
+  <project path="system/security" name="system_security" remote="xdp" />
+  <project path="system/timezone" name="system_timezone" remote="xdp" />
+  <project path="system/vold" name="system_vold" remote="xdp" />
 
   <!-- Remote Vendor xdroidOSS-Pixel -->
   <project path="vendor/xdroid" name="vendor_xdroid" remote="xdp" />
