@@ -123,10 +123,12 @@
   <remove-project name="platform/hardware/ril" />
 
   <!-- Packages Apps -->
+  <remove-project name="platform/packages/apps/Launcher3"/>
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Gallery" />
   <remove-project name="platform/packages/apps/Gallery2" />
+  <remove-project name="platform/packages/apps/ThemePicker"/>
 
   <!-- Packages (services) -->
   <remove-project name="platform/packages/services/Telecomm" />

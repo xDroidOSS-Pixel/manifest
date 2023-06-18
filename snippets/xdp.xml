@@ -76,9 +76,11 @@
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="xdp" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="xdp" />
   <project path="packages/apps/ElmyraService" name="packages_apps_ElmyraService" remote="xdp" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="xdp" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="xdp" />
   <project path="packages/apps/RepainterServicePriv" name="packages_apps_RepainterServicePriv" remote="xdp" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="xdp" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="xdp" />
   <project path="packages/apps/kebeletEgg" name="packages_apps_kebeletEgg" remote="xdp" />
   <project path="packages/apps/ViMusic" name="packages_apps_vimusic" remote="xdp" />
 
