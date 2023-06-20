@@ -75,7 +75,7 @@
   <!-- Remote Packages -->
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="xdp" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="xdp" />
-  <project path="packages/apps/ElmyraService" name="packages_apps_ElmyraService" remote="xdp" />
+  <!-- project path="packages/apps/ElmyraService" name="packages_apps_ElmyraService" remote="xdp" /> -->
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="xdp" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="xdp" />
   <project path="packages/apps/RepainterServicePriv" name="packages_apps_RepainterServicePriv" remote="xdp" />
@@ -102,6 +102,6 @@
   <project path="vendor/xdroid" name="vendor_xdroid" remote="xdp" />
   <project path="vendor/xdroidui-pref" name="vendor_xdroidui-pref" remote="xdp" />
   <project path="vendor/gms" name="vendor_xdroid_gms" remote="xdp-gitlab" clone-depth="1" />
-  <!-- <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="xdp" /> -->
+  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="xdp" />
 
 </manifest>
