@@ -129,6 +129,7 @@
   <remove-project name="platform/packages/apps/Gallery" />
   <remove-project name="platform/packages/apps/Gallery2" />
   <remove-project name="platform/packages/apps/ThemePicker"/>
+  <remove-project name="platform/packages/apps/WallpaperPicker2" />
 
   <!-- Packages (services) -->
   <remove-project name="platform/packages/services/Telecomm" />

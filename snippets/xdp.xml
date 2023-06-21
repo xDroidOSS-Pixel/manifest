@@ -83,6 +83,7 @@
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="xdp" />
   <project path="packages/apps/kebeletEgg" name="packages_apps_kebeletEgg" remote="xdp" />
   <project path="packages/apps/ViMusic" name="packages_apps_vimusic" remote="xdp" />
+  <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="xdp" />
 
   <!-- Remote Packages Services xdroidOSS-Pixel -->
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="xdp" />
