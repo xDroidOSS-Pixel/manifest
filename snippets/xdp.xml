@@ -104,5 +104,6 @@
   <project path="vendor/xdroidui-pref" name="vendor_xdroidui-pref" remote="xdp" />
   <project path="vendor/gms" name="vendor_xdroid_gms" remote="xdp-gitlab" clone-depth="1" />
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="xdp" />
+  <project path="vendor/google/interfaces" name="vendor_google_interfaces" remote="xdp" />
 
 </manifest>
