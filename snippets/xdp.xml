@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- GitHub -->
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <!-- Gitlab -->
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <!-- GitHub (xdroidOSS) -->
+  <remote  name="xdp"
+           fetch="https://github.com/xDroidOSS-Pixel"
+           revision="udc" />
+
+  <!-- Gitlab (xdroidOSS) -->
+  <remote  name="xdp-gitlab"
+           fetch="https://gitlab.com/xdroidpixel"
+           revision="udc" />
+    
+  <!-- Remote Device xdroidOSS-Pixel -->
+  <project path="device/xdroid/sepolicy" name="device_xdroid_sepolicy" remote="xdp" />
+  <project path="device/qcom/common" name="AOSPA/android_device_qcom_common" revision="uvite" remote="github" />
+  <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="xdp" />
+
+  <!-- Remote External xdroidOSS-Pixel -->
+  <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="xdp" />
+  <!-- project path="external/faceunlock" name="xdp_external_faceunlock" remote="xdp-gitlab-fork" clone-depth="1" /-->
+  <project path="external/cronet" name="PixelExperience-Staging/external_cronet" revision="fourteen" remote="github" />
+  <project path="external/jemalloc_new" name="external_jemalloc_new" remote="xdp" />
+
+  <!-- Remote Frameworks xdroidOSS-Pixel -->
+  <project path="frameworks/av" name="frameworks_av" remote="xdp" />
+  <project path="frameworks/base" name="frameworks_base" remote="xdp" />
+  <project path="frameworks/native" name="frameworks_native" remote="xdp" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="xdp" />
+  <!--project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="xdp" /-->
+
+  <!-- Remote General repos xdroidOSS-Pixel -->
+  <project path="art" name="art" remote="xdp" />
+  <project path="bionic" name="bionic" remote="xdp" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="xdp" />
+  <project path="build/make" name="build" remote="xdp" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="xdp" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- Remote Hardware xdroidOSS-Pixel -->
+  <project path="hardware/google/pixel-sepolicy" name="hardware_google_pixel-sepolicy" remote="xdp" />
+  <project path="hardware/xdroid/interfaces" name="hardware_xdroid_interfaces" remote="xdp" />
+
+  <!-- Remote Packages -->
+  <!-- project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="xdp" /-->
+  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="xdp" />
+  <project path="packages/apps/kebeletEgg" name="packages_apps_kebeletEgg" remote="xdp" />
+  <!--project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="xdp" /-->
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="xdp" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="xdp" />
+  <!-- project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="xdp"/-->
+  <project path="packages/apps/ViMusic" name="packages_apps_vimusic" remote="xdp" />
+  <!-- project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="xdp" /-->
+  
+  <!-- Packages Modules xdroidOSS-Pixel -->
+  <project path="packages/modules/adb" name="packages_modules_adb" remote="xdp" />
+  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="xdp" />
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="xdp-gitlab" clone-depth="1" />
+  <project path="packages/modules/Permission" name="packages_modules_Permission" remote="xdp" />
+  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="xdp" />
+
+  <!-- Remote Packages Services xdroidOSS-Pixel -->
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="xdp" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="xdp" />
+
+  <!-- Remote System xdroidOSS-Pixel -->
+  <project path="system/core" name="system_core" remote="xdp" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="xdp" />
+  <project path="system/update_engine" name="system_update_engine" remote="xdp" />
+
+  <!-- Remote Vendor xdroidOSS-Pixel -->
+  <project path="vendor/xdroid" name="vendor_xdroid" remote="xdp" />
+  <project path="vendor/xdroidui-pref" name="vendor_xdroidui-pref" remote="xdp" />
+  <project path="vendor/gms" name="vendor_xdroid_gms" remote="xdp-gitlab" clone-depth="1" />
+  <project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" revision="uvite" remote="github" />
+  <!--project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="xdp" /-->
+</manifest>
